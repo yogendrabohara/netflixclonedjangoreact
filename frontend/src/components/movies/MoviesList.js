@@ -45,9 +45,9 @@ const MoviesList = ({fetchMovie, movies, token}) => {
                 <MovieRow title="Romantic Movies" id={2}/>
                 <MovieRow title="Trending Now" id={3}/>
                 <MovieRow title="Asian TV Drama" id={4}/>
-                <MovieRow title="Action Movies" id={5}/>
-                <MovieRow title="Netflix Originals" id={6}/>
-                <MovieRow title="Hindi Movies" id={7}/>
+                <MovieRow title="Netflix Originals" id={5}/>
+                <MovieRow title="Hindi Movies" id={6}/>
+                <MovieRow title="Action Movies" id={7}/>
 
             </div>
             
