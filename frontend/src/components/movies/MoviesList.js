@@ -29,7 +29,7 @@ const MoviesList = ({fetchMovie, movies, token}) => {
         ;
     }, [])
 
-    const randomNumber = Math.floor(Math.random() * movies.length-1);
+    // const randomNumber = Math.floor(Math.random() * movies.length-1);
 
     return (
         <div>
@@ -37,7 +37,7 @@ const MoviesList = ({fetchMovie, movies, token}) => {
             <Nav />
 
             {/* Banner */}
-            {movies.length !== 0 && <Banner singleMovieToDisplay={movies[randomNumber]}/>}
+            {movies.length !== 0 && <Banner singleMovieToDisplay={movies[Math.floor(Math.random() * movies.length-1)]}/>}
             {/* different number of rows */}
             <div>
                 <MovieRow title="Continue watching for yogi" id={0}/>
