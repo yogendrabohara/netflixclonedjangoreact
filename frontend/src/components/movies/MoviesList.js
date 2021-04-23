@@ -14,7 +14,7 @@ const MoviesList = ({fetchMovie, movies, token}) => {
     const history = useHistory()
     const fetchData = async () => {
         await apis.get('/movies/', {headers:{Authorization: 'Token '+ token}})
-        .then(response =>  fetchMovie(response.data.results))
+        .then(response => fetchMovie(response.data))
         .catch(error => console.log(error))
     }
     // lets fetch apis
