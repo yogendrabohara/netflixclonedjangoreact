@@ -8,7 +8,7 @@ A Netflix clone I created for the sake of practicing React ,Redux and Django RES
    4. React
    5. Responsive Web Design
    6. Bootstrap
- ### Live Demo [](https://dashboard.heroku.com/pipelines/c8400218-7f92-42b3-b906-e232b1fe6dbd)
+ ### [Live Demo](https://dashboard.heroku.com/pipelines/c8400218-7f92-42b3-b906-e232b1fe6dbd)
  
  ### This projects have two parts: 
  - Frontend ( React and Redux )
@@ -16,5 +16,10 @@ A Netflix clone I created for the sake of practicing React ,Redux and Django RES
 
 
 ### Getting Started
-- [Prerequisities]()
-    - Tools & Versions
+#### Getting Started with Backend branch
+Install python package. Download python from https://www.python.org/downloads/
+.Then clone this github and save in your device.
+```sh
+git clone https://github.com/yogendrabohara/netflixclonedjangoreact/
+cd netflixclonedjangoreact
+```
