@@ -70,6 +70,10 @@ npm start
 ```
 
 
+#### Deployment
+- Application will be serving on http://localhost:3000
+
+
 
 
 
