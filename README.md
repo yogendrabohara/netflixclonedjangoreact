@@ -22,4 +22,25 @@ Install python package. Download python from https://www.python.org/downloads/
 ```sh
 git clone https://github.com/yogendrabohara/netflixclonedjangoreact/
 cd netflixclonedjangoreact
+cd backend
 ```
+
+It is important to download the requirements to run this app in your localhost , hence to download all the requirements packages used during building phases. Use this command in local command prompt.
+
+```sh
+pip install -r requirements.txt
+```
+
+#### Before deployment , migrate all the changes and makemigrations using following shell command prompt:
+```sh
+python manage.py makemigrations
+
+python manage.py migrate
+python manage.py runserver
+```
+
+### Deployment
+- Application will be serving on http://localhost:8000
+- This will gives us API endpoints
+
+
