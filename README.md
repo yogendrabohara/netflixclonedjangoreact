@@ -43,4 +43,33 @@ python manage.py runserver
 - Application will be serving on http://localhost:8000
 - This will gives us API endpoints
 
+### GETTING STARTED WITH FRONT END
+
+#### Features 
+- Without sign in/ sign up users can visit Home page
+- Users can signup , login and logout
+- Used Token authenication and stored in redux store 
+
+#### Install Dependencies
+```sh 
+npm install
+```
+#### Run the project on your local machine
+
+```sh 
+npm start
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
