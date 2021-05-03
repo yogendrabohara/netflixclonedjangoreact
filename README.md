@@ -49,6 +49,15 @@ python manage.py runserver
 - Without sign in/ sign up users can visit Home page
 - Users can signup , login and logout
 - Used Token authenication and stored in redux store 
+- User can click on a movie and a modal should pop up.
+
+
+#### Navigate to the front end folder
+
+```sh
+cd netflixclonedjangoreact
+cd frontend
+```
 
 #### Install Dependencies
 ```sh 
