@@ -8,7 +8,7 @@ A Netflix clone I created for the sake of practicing React ,Redux and Django RES
    4. React
    5. Responsive Web Design
    6. Bootstrap
- ### [Live Demo](https://dashboard.heroku.com/pipelines/c8400218-7f92-42b3-b906-e232b1fe6dbd)
+ ### [Live Demo](https://netfront.herokuapp.com/)
  
  ### This projects have two parts: 
  - Frontend ( React and Redux )
