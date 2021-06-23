@@ -60,7 +60,7 @@ const Home = () => {
                     
                 </div>
                 <div className="col-md-6 col-sm-12">
-                    <img className="imagedisplayone" src = {nettv}/>
+                    <img className="imagedisplayone" src={nettv}/>
                 </div>
             </div>  
         </section>
@@ -89,7 +89,7 @@ const Home = () => {
 
         <section id="sectiontwo" className="container">
             <div className="row">
-                <div className="col-lg-12 col-md-6 text-center">
+                <div className="col-lg-12 text-center">
                     <div className="jumbotron">
                         <h3>Frequently Asked Questions</h3>
                         {qestionAndAnswers.map((questionAndAnswer, index) => ( 
