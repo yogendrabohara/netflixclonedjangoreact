@@ -57,13 +57,15 @@ body::after {
 .subtitle {
   font-size: 25px;
   font-weight: bold;
+  color: #b0b0b0;
 }
 
-input[type="text"] {
+input[type="text"].emailsignup {
   width: 65%;
-  padding: 25px;
-  font-size: 15px;
+  padding: 15px;
+  font-size: 18px;
   font-weight: normal;
+  color: black;
 }
 
 .btn[type="button"] {
@@ -96,7 +98,35 @@ input[type="text"] {
 /* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
-  display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .h1,
+  h1 {
+    font-size: 30px;
+  }
+
+  .h3,
+  h3 {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b0b0b0;
+  }
+
+  input[type="text"].emailsignup {
+    width: 100%;
+    padding: 13px;
+    font-size: 17px;
+    font-weight: normal;
+  }
 }

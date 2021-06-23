@@ -8,7 +8,6 @@ const Banner = ({singleMovieToDisplay}) => {
     return (
         <header> 
             {/* Background -image */}
-            <div className="banner--fadeTop"></div>
             <div className="banner" >
             <img className="bannerimage" src={singleMovieToDisplay.image_path}/>
 
@@ -30,7 +29,6 @@ const Banner = ({singleMovieToDisplay}) => {
                 </div>
 
             </div>
-            <div className="banner--fadeBottom"></div>
             
         </header>
     )

@@ -5,11 +5,11 @@
 .jumbotron {
   background: rgb(3, 3, 3);
   opacity: 0.8;
-  width: 60%;
+  width: 80%;
 }
 
 .signincontrol {
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 25px;
   width: 100%;
 }
@@ -18,13 +18,30 @@
   width: 100%;
 }
 
-button[type="submit"] {
-  margin-top: 60px;
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"],
+button.submit {
+  margin-top: 20px;
   margin-left: 5px;
-  width: 100%;
+  width: 65%;
+  padding: 12px 5px;
+  font-weight: bold;
 }
 
 .legendname {
   font-size: 30px;
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  button[type="submit"] {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    padding: 12px 5px;
+    font-weight: bold;
+  }
 }

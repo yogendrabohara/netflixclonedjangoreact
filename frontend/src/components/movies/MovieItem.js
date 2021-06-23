@@ -18,8 +18,6 @@ const MovieItem = ({movies}) => {
             {/* Banner */}
             <Banner singleMovieToDisplay={selectedMovie}/>
             {/* movie details */}
-
-
         </div>
     )
 }
