@@ -23,8 +23,6 @@ const SignUp = () => {
             
             apis.post('/users/', user)
             .then(response=> history.push('/login'))
-            
-            
         }
         
     }
@@ -52,13 +50,9 @@ const SignUp = () => {
                         <div className="signincontrol">
                             <input type="password" id="confirmpasswordInput" className="form-control" name="confirmpassword" placeholder="Confirm Password"/>
                         </div>
-                        <button className="btn btn-danger" name="submit" onClick={() => handleChange()}>Submit</button>               
+                        <button className="btn btn-danger submit" name="submit" onClick={() => handleChange()}>Submit</button>               
                     </fieldset>
-                
-
             </div>
-            
-
         </div>
         </section>   
     )

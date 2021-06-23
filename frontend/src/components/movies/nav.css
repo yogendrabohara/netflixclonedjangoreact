@@ -2,26 +2,44 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 10px;
-  height: 20px;
+  padding: 20px;
+  height: 80px;
   z-index: 1;
-
   display: flex;
   justify-content: space-between;
+  background: #00000042;
 }
 
 .nav_logo {
   position: fixed;
-  left: 0;
+  left: 20px;
+  top: 15px;
   object-fit: contain;
 }
 
 .nav_avatar {
   position: fixed;
-  margin-top: 4rem;
+  margin-top: 0rem;
+  top: 15px;
   right: 20px;
   width: 50px;
   object-fit: contain;
+}
+
+.nav_avatar_menu {
+  position: fixed;
+  top: 78px;
+  right: 65px;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.nav_avatar_menu a {
+  color: white;
 }
 
 .navbar {
@@ -35,8 +53,8 @@
 .nav_items {
   text-decoration: none;
   display: flex;
-  margin: 6rem 0;
-  padding-left: 1rem;
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
 }
 
 .nav_item {
@@ -45,7 +63,7 @@
   margin-right: 2rem;
   padding-right: 2rem;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav_item:hover {
